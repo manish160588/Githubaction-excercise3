@@ -18,8 +18,8 @@ jobs:
         with:
           who-to-greet: ${{ inputs.who-to-greet }}
       - name: time
-          run: |
-            echo "The time of the greeting was at: ${{ steps.print-to-log.outputs.time }}"
+        run: |
+          echo "The time of the greeting was at: ${{ steps.print-to-log.outputs.time }}"
         
 
   second_job:
